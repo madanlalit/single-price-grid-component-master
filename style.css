@@ -93,5 +93,91 @@ body{
 }
 .text p{
     font-size: 12px;
-    ma
+}
+
+
+@media screen and (max-width: 365px){
+    .container{
+        padding: 25px;  
+        display: grid;
+        align-items:center;
+        justify-content:center;
+        max-height: fit-content;
+    }
+    .card{
+        max-height: fit-content;
+        display: block!important;
+
+
+    }
+    .section1{
+        padding: 15px;
+    }
+    .section1 h1{
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    .section1 h3{
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    .section1 p{
+        line-height: 20px;
+        font-size: 10px;
+    
+    }
+    .section2{
+        display:inline-block;
+        color: hsl(204, 43%, 93%);
+        max-height: 100%;
+    
+    }
+    .subs{
+        padding: 15px;
+        background-color: hsl(179, 62%, 43%);
+        text-align: left;
+        max-height: 100%;
+    
+    }
+    .subs h3{
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .subs h2{
+        margin-bottom: 10px;
+        font-size: 20px;
+    
+    }
+    .subs h2 span{
+        font-size: 12px;
+        margin-left: 10px;
+        opacity: 80%;
+    }
+    .subs p{
+        margin-bottom: 10px;
+        font-size: 10px;
+    
+    }
+    .subs button{
+        width: 100%;
+        padding: 7px;
+        background-color: hsl(71, 73%, 54%);
+        border: none;
+        border-radius: 5px;
+    
+    }
+    .text{
+        padding: 15px;
+        background-color: hsl(177, 54%, 52%);
+    }
+    .text h3{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .text p{
+        font-size: 10px;
+        ma
+    }
+
+    
 }
